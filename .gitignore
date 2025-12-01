@@ -1,0 +1,13 @@
+# Common Node.js Ignored Files
+.env
+.env.local
+npm-debug.log*
+
+# Frontend (React) Exclusions
+# Note: The 'client/' prefix is needed because node_modules/ is nested.
+frontend/node_modules/
+frontend/build/
+
+# Backend (Express/Node.js) Exclusions
+# Note: The 'server/' prefix is needed.
+backend/node_modules/
